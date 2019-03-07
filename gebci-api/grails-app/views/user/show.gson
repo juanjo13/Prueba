@@ -1,7 +1,0 @@
-import mx.gob.fgjez.gebci.security.User
-
-model {
-	User user
-}
-
-json tmpl.user(user)

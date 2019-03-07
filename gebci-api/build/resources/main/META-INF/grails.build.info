@@ -1,6 +1,0 @@
-#Sat, 02 Mar 2019 10:17:36 -0600
-
-info.app.version=0.1
-info.app.name=gebci-api
-grails.env=development
-info.app.grailsVersion=3.3.6

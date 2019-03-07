@@ -1,7 +1,0 @@
-import mx.gob.fgjez.gebci.search.SearchResult
-
-model {
-	Iterable<SearchResult> resultList
-}
-
-json tmpl.result(resultList ?: [])

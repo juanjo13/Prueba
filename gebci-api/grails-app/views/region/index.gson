@@ -1,8 +1,0 @@
-import mx.gob.fgjez.gebci.carpetas.Region
-
-model {
-	Iterable<Region> regionList
-}
-
-json tmpl.region(regionList ?: [])
-

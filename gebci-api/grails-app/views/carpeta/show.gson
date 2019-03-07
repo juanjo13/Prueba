@@ -1,7 +1,0 @@
-import mx.gob.fgjez.gebci.carpetas.Carpeta
-
-model {
-	Carpeta carpeta
-}
-
-json tmpl.carpeta(carpeta)

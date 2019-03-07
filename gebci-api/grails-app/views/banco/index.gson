@@ -1,8 +1,0 @@
-import mx.gob.fgjez.gebci.catalog.Banco
-
-model {
-	Iterable<Banco> bancoList
-}
-
-json tmpl.banco(bancoList ?: [])
-

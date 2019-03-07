@@ -1,7 +1,0 @@
-import mx.gob.fgjez.gebci.geo.Procedencia
-
-model {
-	Procedencia procedencia
-}
-
-json tmpl.procedencia(procedencia)

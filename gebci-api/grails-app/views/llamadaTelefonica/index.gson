@@ -1,8 +1,0 @@
-import mx.gob.fgjez.gebci.carpetas.LlamadaTelefonica
-
-model {
-	Iterable<LlamadaTelefonica> llamadaTelefonicaList
-}
-
-json tmpl.llamadaTelefonica(llamadaTelefonicaList ?: [])
-

@@ -1,8 +1,0 @@
-import mx.gob.fgjez.gebci.geo.Procedencia
-
-model {
-	Iterable<Procedencia> procedenciaList
-}
-
-json tmpl.procedencia(procedenciaList ?: [])
-

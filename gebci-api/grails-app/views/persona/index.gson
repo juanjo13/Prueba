@@ -1,8 +1,0 @@
-import mx.gob.fgjez.gebci.carpetas.Persona
-
-model {
-	Iterable<Persona> personaList
-}
-
-json tmpl.persona(personaList ?: [])
-

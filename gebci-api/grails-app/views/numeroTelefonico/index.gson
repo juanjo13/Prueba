@@ -1,8 +1,0 @@
-import mx.gob.fgjez.gebci.carpetas.NumeroTelefonico
-
-model {
-    Iterable<NumeroTelefonico> numeroTelefonicoList
-}
-
-json tmpl.numeroTelefonico(numeroTelefonicoList ?: [])
-

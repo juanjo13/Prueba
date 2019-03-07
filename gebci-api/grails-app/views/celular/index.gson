@@ -1,8 +1,0 @@
-import mx.gob.fgjez.gebci.carpetas.Celular
-
-model {
-	Iterable<Celular> celularList
-}
-
-json tmpl.celular(celularList ?: [])
-
