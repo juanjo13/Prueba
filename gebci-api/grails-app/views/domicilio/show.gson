@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.Domicilio
+
+model {
+	Domicilio domicilio
+}
+
+json tmpl.domicilio(domicilio)

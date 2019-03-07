@@ -1,0 +1,23 @@
+import mx.gob.fgjez.gebci.carpetas.Suceso
+
+model {
+    Suceso suceso
+}
+
+json {
+    id suceso.id
+    descripcion suceso.descripcion
+    lugar {
+        id suceso.lugar?.id
+        descripcion suceso.lugar?.descripcion
+        tipo suceso.lugar?.tipoLugar
+    }
+    pet suceso.puntoEnTiempo
+    inicio suceso.inicio
+    fin suceso.fin
+    duracion suceso.duracion
+    personas suceso.personas*.id
+    objetos g.render(suceso.categorize())
+    rol suceso.rol
+    estatus suceso.estatus
+}

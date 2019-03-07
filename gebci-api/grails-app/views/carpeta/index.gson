@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.Carpeta
+
+model {
+	Iterable<Carpeta> carpetaList
+}
+
+json tmpl.carpeta_li(carpetaList ?: [])

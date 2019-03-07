@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.Suceso
+
+model {
+	Suceso suceso
+}
+
+json tmpl.suceso(suceso)

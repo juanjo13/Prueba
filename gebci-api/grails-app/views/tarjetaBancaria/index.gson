@@ -1,0 +1,8 @@
+import mx.gob.fgjez.gebci.carpetas.TarjetaBancaria
+
+model {
+	Iterable<TarjetaBancaria> tarjetaBancariaList
+}
+
+json tmpl.tarjetaBancaria(tarjetaBancariaList ?: [])
+

@@ -1,0 +1,8 @@
+import mx.gob.fgjez.gebci.carpetas.Domicilio
+
+model {
+	Iterable<Domicilio> domicilioList
+}
+
+json tmpl.domicilio(domicilioList ?: [])
+

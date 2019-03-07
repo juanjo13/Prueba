@@ -1,0 +1,10 @@
+import mx.gob.fgjez.gebci.abac.Permiso
+
+model {
+    Permiso permiso
+}
+
+json {
+    username permiso.username
+    access permiso.access
+}

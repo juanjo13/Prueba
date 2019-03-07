@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.Arma
+
+model {
+	Arma arma
+}
+
+json tmpl.arma(arma)

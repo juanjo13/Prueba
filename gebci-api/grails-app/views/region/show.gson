@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.Region
+
+model {
+	Region region
+}
+
+json tmpl.region(region)

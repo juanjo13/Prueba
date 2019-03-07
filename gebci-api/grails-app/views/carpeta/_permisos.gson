@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.abac.Permiso
+
+model {
+    Iterable<Permiso> permisosList
+}
+
+json tmpl.permiso(permisosList ?: [])

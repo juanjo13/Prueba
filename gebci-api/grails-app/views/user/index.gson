@@ -1,0 +1,8 @@
+import mx.gob.fgjez.gebci.security.User
+
+model {
+	Iterable<User> userList
+}
+
+json tmpl.user(userList ?: [])
+

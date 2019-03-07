@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.LlamadaTelefonica
+
+model {
+	LlamadaTelefonica llamadaTelefonica
+}
+
+json tmpl.llamadaTelefonica(llamadaTelefonica)

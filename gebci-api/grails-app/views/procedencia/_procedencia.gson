@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.geo.Procedencia
+
+model {
+	Procedencia procedencia
+}
+
+json g.render(procedencia, [resolveTemplate: false])

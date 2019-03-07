@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.TarjetaBancaria
+
+model {
+	TarjetaBancaria tarjetaBancaria
+}
+
+json tmpl.tarjetaBancaria(tarjetaBancaria)

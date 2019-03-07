@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.Celular
+
+model {
+	Celular celular
+}
+
+json tmpl.celular(celular)

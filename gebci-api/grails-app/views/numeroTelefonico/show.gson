@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.carpetas.NumeroTelefonico
+
+model {
+    NumeroTelefonico numeroTelefonico
+}
+
+json tmpl.numeroTelefonico(numeroTelefonico)

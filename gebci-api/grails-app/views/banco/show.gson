@@ -1,0 +1,7 @@
+import mx.gob.fgjez.gebci.catalog.Banco
+
+model {
+	Banco banco
+}
+
+json tmpl.banco(banco)

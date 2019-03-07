@@ -1,0 +1,8 @@
+import mx.gob.fgjez.gebci.carpetas.Arma
+
+model {
+	Iterable<Arma> armaList
+}
+
+json tmpl.arma(armaList ?: [])
+

@@ -1,0 +1,15 @@
+import mx.gob.fgjez.gebci.carpetas.Celular
+
+model {
+	Celular celular
+}
+
+json {
+	id celular.id
+	marca celular.marca
+	modelo celular.modelo
+	descripcion celular.descripcion
+	imei celular.imei
+	rol celular.rol
+	estatus celular.estatus
+}

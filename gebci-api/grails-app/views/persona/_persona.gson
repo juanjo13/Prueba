@@ -1,0 +1,21 @@
+import mx.gob.fgjez.gebci.carpetas.Persona
+
+model {
+    Persona persona
+}
+
+json {
+    id persona.id
+    nombres persona.nombres
+    paterno persona.paterno
+    materno persona.materno
+    fechaNacimiento persona.fechaNacimiento
+    sexo persona.sexo
+    alias persona.alias
+    celulares persona.celulares*.id
+    tarjetas persona.tarjetas*.id
+    vehiculos persona.vehiculos*.id
+    armas persona.armas*.id
+    rol persona.rol
+    estatus persona.estatus
+}

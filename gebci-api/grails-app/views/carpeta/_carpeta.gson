@@ -1,0 +1,17 @@
+import mx.gob.fgjez.gebci.carpetas.Carpeta
+
+model {
+    Carpeta carpeta
+}
+
+json {
+    id carpeta.id
+    numero carpeta.numero
+    descripcion carpeta.descripcion
+    fechaInicio carpeta.fechaInicio
+    delito g.render(carpeta.delito, [resolveTemplate: false])
+    procedencia g.render(carpeta.procedencia, [resolveTemplate: false])
+    relato carpeta.relato
+    estatus carpeta.estatus
+    permisos g.render(template:'permisos', model:['permisosList':carpeta.permisos ?: []])
+}

@@ -1,0 +1,8 @@
+import mx.gob.fgjez.gebci.carpetas.Suceso
+
+model {
+	Iterable<Suceso> sucesoList
+}
+
+json tmpl.suceso(sucesoList ?: [])
+

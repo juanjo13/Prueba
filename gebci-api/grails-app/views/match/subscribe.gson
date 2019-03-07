@@ -1,0 +1,16 @@
+import mx.gob.fgjez.gebci.match.Trabajo
+
+model {
+    Trabajo trabajo
+}
+
+json {
+    id trabajo.id
+    tipo trabajo.tipo
+    entrada trabajo.entrada
+    creado trabajo.creado
+    ejecutado trabajo.ejecutado
+    estatus trabajo.estatus
+    urlNotificacion trabajo.urlNotificacion
+    estatusNotificacion trabajo.estatusNotificacion
+}
